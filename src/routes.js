@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Router } from 'react-router-dom';
 import App from './App';
-import Home from './Home/Home';
+import Home from './home/home';
 import Callback from './Callback';
-import Auth from './Auth/Auth';
+import Auth from './auth/auth';
 import history from './history';
 
 const auth = new Auth();
