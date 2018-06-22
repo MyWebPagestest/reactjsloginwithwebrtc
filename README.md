@@ -11,9 +11,11 @@ If you haven't already done so, [sign up](https://auth0.com) for your free Auth0
 Clone the repo or download it from the React quickstart page in Auth0's documentation. Install create-react-app globally and the dependencies for the app.
 
 ```bash
-npm install -g create-react-app
-cd 01-Login
+clone the repo
+cd reactjsloginwithwebrtc
 npm install
+if error still apears
+npm audit --fix force
 ```
 
 > **Note:** If you are not using create-react-app but are using Babel, you need to add the `stage-0` preset.
